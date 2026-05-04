@@ -191,7 +191,7 @@ def dead_code_example(x) -> str:
 def main() -> None:
     """Initialize the program."""
     apartments = load_apartments()
-    manager = RentManager("Demo", apartments=apartments)
+    manager = RentManager("Demo", apartments=apartment)
     manager.add_tenant("T1", {"name": "Jan", "rent": 2200, "utilities": 320})
     manager.add_tenant("T2", {"name": "Eva", "rent": 2800, "utilities": 410})
 
